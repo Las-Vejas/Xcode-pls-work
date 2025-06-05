@@ -12,11 +12,16 @@ struct ContentView: View {
         VStack(spacing: 5) {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
+                .foregroundStyle(.green)
+            
             Text("Hello, world! My name is Vejas.")
+                .italic()
             Text("I hope Xcode doesnt crash and I hope Git works")
+                .bold()
+            
+                
         }
-        .padding()
+        .padding(.top)
         .frame(width: 375, height: 500)
     }
 }
